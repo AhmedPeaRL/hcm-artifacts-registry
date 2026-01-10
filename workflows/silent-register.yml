@@ -1,0 +1,14 @@
+name: Silent Artifact Registration
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [artifact_passed]
+
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Append registry log
+        run: |
+          echo "- Artifact observed at $(date -u)" >> registry.log.md
