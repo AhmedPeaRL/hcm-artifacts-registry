@@ -1,0 +1,18 @@
+{
+  "registry_role": "passive_witness",
+  "mutation_policy": "append_only_if_present",
+
+  "artifacts": [],
+
+  "absence_policy": {
+    "absence_is_valid": true,
+    "absence_is_not_error": true,
+    "absence_has_no_replacement": true
+  },
+
+  "visibility_rules": {
+    "ordering_required": false,
+    "ranking_allowed": false,
+    "selection_logic": "none"
+  }
+}
