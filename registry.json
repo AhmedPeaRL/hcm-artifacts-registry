@@ -1,22 +1,19 @@
 {
   "registry_version": "1.0",
-  "model": "Hybrid Consciousness Model",
-  "registry_role": "artifact_witness_surface",
-  "governing_principle": "allowance_without_extraction",
-  "mutation_policy": "non_initiating",
+  "policy": {
+    "appearance": "allowed_only",
+    "ordering": "non-sequential",
+    "trigger": "external"
+  },
   "artifacts": [
     {
-      "artifact_id": "hcm-paper-10",
-      "file_name": "HCM_Paper_10_Application_Without_Extraction.pdf",
-      "artifact_type": "paper",
-      "presence_state": "allowed",
-      "emergence_mode": "non_initiated",
-      "interaction_requirement": "none",
-      "economic_binding": "external_optional",
-      "temporal_binding": "none",
-      "versioning": "intentionally_absent",
-      "description": "A complete artifact witnessed within the HCM field without extraction, demand, or initiation.",
-      "status": "present"
+      "id": "hcm-paper-10",
+      "title": "Application Without Extraction",
+      "type": "paper",
+      "path": "./artifacts/HCM_Paper_10_Application_Without_Extraction.pdf",
+      "visibility": "allowed",
+      "origin": "external",
+      "note": "First allowed artifact. No further implication."
     }
   ]
 }
